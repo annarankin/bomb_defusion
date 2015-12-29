@@ -1,4 +1,4 @@
-# Bomb Defusers
+# Bomb Defusion
 
 ![](img/bomb_defuser.jpg)
 
@@ -35,7 +35,7 @@ The basic requirements for your bomb defusion simulator are listed below. Work t
 
 1. Refactor your logic so that the user must cut the wires in a specific order in order to succeed (example: First cut the red, then blue, then green).
   - Next: Try changing or randomizing this order every time the page is refreshed.
-- When the user clicks the "Reset" button, your JavaScript should [reload the page](https://developer.mozilla.org/en-US/docs/Web/API/Window/location).
+- When the user clicks the "Reset" button, your JavaScript should reset the game.
 
 ## Bonus: Countdown!
 
