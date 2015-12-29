@@ -1,0 +1,92 @@
+body {
+    background: #111;
+}
+.bomb {
+    position:relative;
+    background: url('img/bomb_defusion.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    height: 400px;
+    width: 900px;
+    margin: 70px auto;
+}
+.wire {
+    position: absolute;
+    left: 38.55%;
+    height: 80px;
+    width: 37%;
+}
+
+#red {
+    top: 120px;
+    background: url('img/red_wire.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#red.cut {
+    top: 120px;
+    background: url('img/red_wire_cut.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#green {
+    top: 195px;
+    background: url('img/green_wire.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#green.cut {
+    top: 195px;
+    background: url('img/green_wire_cut.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#blue {
+    top:275px;
+    background: url('img/blue_wire.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#blue.cut {
+    top:275px;
+    background: url('img/blue_wire_cut.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#counter {
+    color: #0F0;
+    position: absolute;
+    left: 62%;
+    top: 30px;
+    height: 35px;
+    width: 110px;
+    text-align:center;
+    font-family: 'Courier New', sans-serif;
+    font-size: 34px;
+}
+.controls {
+  text-align: center;
+}
+.controls button {
+  border: 0;
+  color: #FFF;
+  background: #369;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 24px;
+  margin: 20px;
+}
+.modal, #instructions {
+    background-color: #eee;
+    width: 70%;
+    text-align: center;
+    padding: 2em 0.25em;
+    position: fixed;
+    top: 12em;
+    right: 15%;
+    z-index: 1;
+}
+.hidden {
+    display: none;
+}
